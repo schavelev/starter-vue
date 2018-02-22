@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "target": "es5",
+    "strict": true,
+    "module": "system",
+    "outFile": "wwwroot/dist/main.js",
+    "moduleResolution": "node"
+  },
+  "include": [
+    "./ClientApp/**/*.ts"
+  ]
+}

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TryVue", "TryVue\TryVue.csproj", "{05B59729-BDB3-41EA-9D24-8D08650E69E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryVueWebpack", "TryVueWebpack\TryVueWebpack.csproj", "{C8CD6316-EC16-4D89-8F37-C27509229DF0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05B59729-BDB3-41EA-9D24-8D08650E69E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05B59729-BDB3-41EA-9D24-8D08650E69E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05B59729-BDB3-41EA-9D24-8D08650E69E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05B59729-BDB3-41EA-9D24-8D08650E69E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8CD6316-EC16-4D89-8F37-C27509229DF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8CD6316-EC16-4D89-8F37-C27509229DF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8CD6316-EC16-4D89-8F37-C27509229DF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8CD6316-EC16-4D89-8F37-C27509229DF0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4FB9AADC-130A-4E6C-BFF5-3BCF0EB90547}
+	EndGlobalSection
+EndGlobal

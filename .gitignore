@@ -1,0 +1,9 @@
+.vs
+.gitattributes
+
+*.user
+
+[Bb]in/
+[Oo]bj/
+wwwroot/dist/
+node_modules/

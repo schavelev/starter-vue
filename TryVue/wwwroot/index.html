@@ -1,0 +1,34 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Try Vue + TypeScript</title>
+
+    <link rel="stylesheet" href="dist/main.css" type="text/css" />
+</head>
+<body>
+    <!--Insert Vue-templates-->
+    <section id="app-templates"></section>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script>
+        $.get("dist/app-templates.html").done(function (data) {
+            $('#app-templates').append(data);
+        });
+    </script>
+
+    <div id="app-root">loading..</div>
+
+    <!--Load vue.js, main.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/systemjs/0.20.19/system.src.js"></script>
+    <script>
+        System.config({
+            map: {
+                "vue": "https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"
+            }
+        });
+        SystemJS.import('dist/main.js').then(function (m) {
+            SystemJS.import('index');
+        });
+    </script>
+</body>
+</html>

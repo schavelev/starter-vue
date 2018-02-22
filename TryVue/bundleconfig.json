@@ -1,0 +1,18 @@
+﻿[
+  {
+    "outputFileName": "wwwroot/dist/main.css",
+    "inputFiles": [
+      "ClientApp/**/*.css"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/dist/app-templates.html",
+    "inputFiles": [
+      "ClientApp/**/*.html"
+    ],
+    "minify": {
+      "enabled": false,
+      "renameLocals": false
+    }
+  }
+]
