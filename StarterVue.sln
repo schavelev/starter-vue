@@ -5,7 +5,12 @@ VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TryVue", "TryVue\TryVue.csproj", "{05B59729-BDB3-41EA-9D24-8D08650E69E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryVueWebpack", "TryVueWebpack\TryVueWebpack.csproj", "{C8CD6316-EC16-4D89-8F37-C27509229DF0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TryVueWebpack", "TryVueWebpack\TryVueWebpack.csproj", "{C8CD6316-EC16-4D89-8F37-C27509229DF0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution items", "Solution items", "{7EA7D8C1-96F9-4227-B6B1-9DDA05F1D02A}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
