@@ -1,5 +1,5 @@
 # StarterVue
-ѕриложение Vue.js + Asp.NETCore + TypeScript без Webpack - решение дл€ Visual Studio 2017, пример дл€ habrahabr.
+"ѕриложение Vue.js + Asp.NETCore + TypeScript без Webpack" - это решение дл€ Visual Studio 2017, пример дл€ статьи habrahabr.
 
 ![sss](https://habrastorage.org/webt/fq/28/_d/fq28_d4hgcvuvhwoatayx1ojrio.png) 
 
@@ -11,7 +11,7 @@
 
 –екомендуетс€ выполнить обновление пакетов через командную строку до открыти€ файл решени€ (StarterVue.sln).
 
-# —борка и запуск приложени€ TryVueWebpack
+# —борка и запуск TryVueWebpack
 „ерез командную строку в каталоге проекта выполн€ем следующее:
 ```dos
 npm install
@@ -22,7 +22,7 @@ dotnet run
 
 «апуск приложени€ также можно производить в среде Visual Studio.
 
-# —борка и запуск приложени€ TryVue
+# —борка и запуск TryVue
 ќткрыть решение StarterVue.sln, выполнить сборку проекта TryVue (например, через F6), в локальном меню файла bundleconfig.json выполнить команду "Bundle&Minfier\Update bundles".
 
-«апуск приложени€ TryVue - традиционное дл€ среды VS2017 (например, назначить автозагружаемым проектом, затем F5).
+«апуск приложени€ TryVue - традиционное дл€ среды VS2017 (например, "Ќазначить автозагружаемым проектом", затем нажать F5).
