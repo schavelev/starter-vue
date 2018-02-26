@@ -1,5 +1,5 @@
 # StarterVue
-"Приложение Vue.js + Asp.NETCore + TypeScript без Webpack" - это решение для Visual Studio 2017, пример для статьи ![habrahabr](https://habrahabr.ru/post/349880/).
+"Приложение Vue.js + Asp.NETCore + TypeScript без Webpack" - это решение для Visual Studio 2017, пример для статьи [habrahabr](https://habrahabr.ru/post/349880/).
 
 ![image](https://habrastorage.org/webt/fq/28/_d/fq28_d4hgcvuvhwoatayx1ojrio.png) 
 
