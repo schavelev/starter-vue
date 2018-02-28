@@ -1,9 +1,9 @@
 # StarterVue
-"Приложение Vue.js + Asp.NETCore + TypeScript без Webpack" - это решение для Visual Studio 2017, пример для статьи [habrahabr](https://habrahabr.ru/post/349880/).
+![image](https://habrastorage.org/webt/ga/kb/3m/gakb3m1grxnqjvb7jfmo_5sya6m.png)
 
-![image](https://habrastorage.org/webt/fq/28/_d/fq28_d4hgcvuvhwoatayx1ojrio.png) 
-
-Для иллюстрации способа избавления от Webpack подготовлено решение Asp.Net Core с двумя проектами: TryVueWebpack, TryVue.
+Решение Visual Studio 2017 - примеры для статей на habrahabr.ru:
+- [Приложение Vue.js + Asp.NETCore + TypeScript без Webpack](https://habrahabr.ru/post/349880/);
+- [RequireJS для приложений Vue.js + Asp.NETCore + TypeScript]().
 
 # Установка
 
@@ -11,7 +11,7 @@
 
 Рекомендуется выполнить обновление пакетов через командную строку до открытия файл решения (StarterVue.sln).
 
-# Сборка и запуск TryVueWebpack
+# Сборка и запуск проекта TryVueWebpack
 Через командную строку в каталоге проекта выполняем следующее:
 ```dos
 npm install
@@ -22,7 +22,7 @@ dotnet run
 
 Запуск приложения также можно производить в среде Visual Studio.
 
-# Сборка и запуск TryVue
-Открыть решение StarterVue.sln, выполнить сборку проекта TryVue (например, через F6), в локальном меню файла bundleconfig.json выполнить команду "Bundle&Minfier\Update bundles".
+# Сборка и запуск проектов TryVue/TryVueRequire
+Открыть решение StarterVue.sln, выполнить сборку проекта TryVue/TryVueRequire (например, через F6), в локальном меню файла bundleconfig.json выполнить команду "Bundle&Minfier\Update bundles".
 
-Запуск приложения TryVue - традиционное для среды VS2017 (например, "Назначить автозагружаемым проектом", затем нажать F5).
+Запуск приложения - традиционное для среды VS2017 (например, "Назначить автозагружаемым проектом", затем нажать F5).

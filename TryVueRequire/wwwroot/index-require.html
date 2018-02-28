@@ -1,0 +1,39 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Try Vue + TypeScript</title>
+
+    <link rel="stylesheet" href="dist/main.css" type="text/css" />
+</head>
+<body>
+    <!--Insert Vue-templates-->
+    <section id="app-templates"></section>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script>
+        $.get("dist/app-templates.html").done(function (data) {
+            $('#app-templates').append(data);
+        });
+    </script>
+
+    <div id="app-root">loading..</div>
+
+    <!--Load vue.js, main.js -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.5/require.js"></script>
+    <script>
+        require.config({
+            paths: {
+                "vue": "https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue",
+                "index": "dist/main"
+            }
+        });
+        require(['vue'], function (m) {
+            if (m.default === undefined) {
+                m.default = m;
+                console.log('HACK: ' + m.name + '.default was undefined');
+            }
+            require(['index']);
+        });
+    </script>
+</body>
+</html>
