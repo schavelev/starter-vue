@@ -3,7 +3,7 @@
 
 Решение Visual Studio 2017 - примеры для статей на habrahabr.ru:
 - [Приложение Vue.js + Asp.NETCore + TypeScript без Webpack](https://habrahabr.ru/post/349880/);
-- [RequireJS для приложений Vue.js + Asp.NETCore + TypeScript]().
+- [RequireJS для приложений Vue.js + Asp.NETCore + TypeScript](https://habrahabr.ru/post/350056/).
 
 # Установка
 
