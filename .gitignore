@@ -5,5 +5,7 @@
 
 [Bb]in/
 [Oo]bj/
-wwwroot/dist/
+dist/
 node_modules/
+
+package-lock.json
