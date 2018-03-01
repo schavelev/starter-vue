@@ -1,5 +1,5 @@
 # StarterVue
-![image](https://habrastorage.org/webt/ga/kb/3m/gakb3m1grxnqjvb7jfmo_5sya6m.png)
+![image](vue+aspnet+ts-webpack+require.png?raw=true "image")
 
 Решение Visual Studio 2017 - примеры для статей на habrahabr.ru:
 - [Приложение Vue.js + Asp.NETCore + TypeScript без Webpack](https://habrahabr.ru/post/349880/);
