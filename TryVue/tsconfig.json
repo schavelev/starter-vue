@@ -5,7 +5,8 @@
     "strict": true,
     "module": "system",
     "outFile": "wwwroot/dist/main.js",
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "esModuleInterop": true
   },
   "include": [
     "./ClientApp/**/*.ts"

@@ -21,18 +21,9 @@
     <!--Load vue.js, main.js -->
     <script src="http://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.5/require.js"></script>
     <script>
-        // vue-stub.js
-        define("vue", ["require", "exports", "vue-parent"], function (require, exports, vueParent) {
-            "use strict";
-            //if (!vueParent.default) console.warn('HACK: vue.default was undefined');
-            Object.defineProperty(exports, "__esModule", { value: true });
-            exports.default = vueParent.default || vueParent;
-        });
-    </script>
-    <script>
         require.config({
             paths: {
-                "vue-parent": "https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue",
+                "vue": "https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue",
                 "index": "./dist/main"
             }
         });

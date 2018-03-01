@@ -6,6 +6,7 @@
 [Bb]in/
 [Oo]bj/
 dist/
-node_modules/
+built/
 
+node_modules/
 package-lock.json
