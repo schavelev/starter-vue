@@ -5,6 +5,7 @@
 - [Приложение Vue.js + Asp.NETCore + TypeScript без Webpack](https://habrahabr.ru/post/349880/);
 - [RequireJS для приложений Vue.js + Asp.NETCore + TypeScript](https://habrahabr.ru/post/350056/).
 
+На данный момент исходный код примеров немного отличается от приведенного в статье. Изменения вызваны обновлением версий используемых компонент (переход на Webpack 4.32.2, Asp.NETCore 2.2 и т.д.).
 # Установка
 
 Скачать или клонировать этот репозиторий, установить NPM-пакеты в проекте TryVueWebpack при помощи npm-install-try-vue-webpack.bat.
@@ -18,7 +19,7 @@ npm install
 npm run build
 dotnet run
 ```
-В браузере открываем страницу по указанному адресу, например, http://localhost:52643.
+В браузере открываем страницу по указанному адресу, например, http://localhost:5000.
 
 Запуск приложения также можно производить в среде Visual Studio.
 
